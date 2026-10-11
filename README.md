@@ -2,13 +2,6 @@
 
 这个项目是**空白**的 PWA 周课表，所有发布文件都不包含私人课程数据。
 
-## GitHub Pages 部署
-
-1. 解压项目 ZIP。访问 https://github.com/new ，新建名为 `weekly-studio` 的 **Public** 仓库。GitHub Free 的 Pages 发布通常需要 Public 仓库。
-2. 在仓库 **Code → Add file → Upload files** 中上传**解压后的内容**（不是 ZIP 本身）：`index.html`、`manifest.webmanifest`、`service-worker.js`、`icons/` 三张 PNG 图标、`README.md`，以及可选的 `.nojekyll`。文件必须位于仓库根目录，`icons/` 保留子目录。
-3. 在仓库 **Settings → Pages → Build and deployment**：Source 选择 **Deploy from a branch**；Branch 选择 `main`、`/(root)`，然后 Save。
-4. 你的网页预计为 `https://你的用户名.github.io/weekly-studio/`，以 Pages 设置页给出的实际 URL 为准。GitHub Pages 网站默认对公众开放，仓库设为 Private 不代表网页会私有。
-
 ## iPhone 导入已有 22 条事项
 
 1. **不要**上传 `weekly-timetable-backup.json` 到 GitHub。用私下的渠道将这个文件放入 iPhone 的「文件」App，例如在手机的 ChatGPT 里下载原始备份并保存到「文件」，或者通过 AirDrop / iCloud Drive 私下传输。
